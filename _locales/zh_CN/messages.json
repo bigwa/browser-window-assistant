@@ -1,0 +1,416 @@
+{
+  "extensionName": {
+    "message": "浏览器窗口助手",
+    "description": "扩展名称"
+  },
+  "extensionDescription": {
+    "message": "智能管理浏览器窗口和标签页，自动保存会话状态，支持一键恢复和分组管理",
+    "description": "扩展描述"
+  },
+  
+  "popupTitle": {
+    "message": "窗口助手",
+    "description": "弹窗标题"
+  },
+  "popupSubtitle": {
+    "message": "管理您的浏览器窗口和标签页",
+    "description": "弹窗副标题"
+  },
+  "currentTabs": {
+    "message": "当前标签页",
+    "description": "当前标签页标签"
+  },
+  "currentWindows": {
+    "message": "当前窗口",
+    "description": "当前窗口标签"
+  },
+  "lastSaved": {
+    "message": "上次保存",
+    "description": "上次保存标签"
+  },
+  "neverSaved": {
+    "message": "从未保存",
+    "description": "从未保存状态"
+  },
+  
+  "saveNow": {
+    "message": "立即保存快照",
+    "description": "立即保存按钮"
+  },
+  "saveAndClose": {
+    "message": "保存并关闭所有标签页",
+    "description": "保存并关闭所有标签页按钮"
+  },
+  "restoreSnapshot": {
+    "message": "恢复快照",
+    "description": "恢复快照按钮"
+  },
+  "viewSnapshot": {
+    "message": "查看快照",
+    "description": "查看快照按钮"
+  },
+  
+  "savingSession": {
+    "message": "正在保存会话...",
+    "description": "保存会话状态"
+  },
+  "sessionSaved": {
+    "message": "会话保存成功！",
+    "description": "会话保存成功消息"
+  },
+  "saveSuccess": {
+    "message": "保存成功，即将关闭窗口...",
+    "description": "保存成功消息"
+  },
+  "saveFailed": {
+    "message": "保存失败",
+    "description": "保存失败消息"
+  },
+  
+  "restoringSnapshot": {
+    "message": "正在恢复快照...",
+    "description": "恢复快照状态"
+  },
+  "restoreSuccess": {
+    "message": "成功恢复 $COUNT$ 个标签页！",
+    "description": "恢复成功消息",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "restoreFailed": {
+    "message": "恢复失败",
+    "description": "恢复失败消息"
+  },
+  "allTabsAlreadyOpen": {
+    "message": "所有标签页都已经打开，无需恢复",
+    "description": "所有标签页已打开消息"
+  },
+  "noValidTabs": {
+    "message": "快照中没有找到有效的标签页",
+    "description": "无有效标签页消息"
+  },
+  
+  "confirmSaveAndClose": {
+    "message": "确定要保存会话并关闭所有标签页吗？\\n\\n注意：这将关闭当前窗口中的所有标签页，只保留快照页面。浏览器窗口将继续保持打开。",
+    "description": "确认保存并关闭所有标签页对话框"
+  },
+  "confirmRestoreGroup": {
+    "message": "确定要恢复分组\\\"$TITLE$\\\"吗？\\n\\n包含 $COUNT$，系统会自动跳过已经打开的页面。",
+    "description": "确认恢复分组对话框",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "工作分组"
+      },
+      "count": {
+        "content": "$2",
+        "example": "5个标签页"
+      }
+    }
+  },
+  
+  "snapshotPageTitle": {
+    "message": "浏览器窗口助手 - $DATE$",
+    "description": "快照页面标题",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "2025-08-23 14:30"
+      }
+    }
+  },
+  "fixLayout": {
+    "message": "修复布局",
+    "description": "修复布局按钮"
+  },
+  "restoreFullSnapshot": {
+    "message": "恢复快照",
+    "description": "恢复完整快照按钮"
+  },
+  "saveTime": {
+    "message": "保存时间: $TIME$",
+    "description": "保存时间标签",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "2025-08-23 14:30"
+      }
+    }
+  },
+  "tabCount": {
+    "message": "$COUNT$个标签页",
+    "description": "标签页数量",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "groupCount": {
+    "message": "$COUNT$个分组",
+    "description": "分组数量",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "ungroupedTabs": {
+    "message": "未分组标签页",
+    "description": "未分组标签页标签"
+  },
+  "unnamedGroup": {
+    "message": "未命名分组",
+    "description": "未命名分组标签"
+  },
+  "restoredGroup": {
+    "message": "恢复的分组",
+    "description": "恢复的分组标签"
+  },
+  "noDescription": {
+    "message": "暂无描述",
+    "description": "无描述可用"
+  },
+  "noTabs": {
+    "message": "没有找到已保存的标签页",
+    "description": "无标签页消息"
+  },
+  "noSnapshotData": {
+    "message": "暂无保存的会话快照",
+    "description": "无快照数据消息"
+  },
+  "noSnapshotPrompt": {
+    "message": "还没有保存过快照。请先点击\"立即保存快照\"按钮创建一个快照，然后再进行恢复。",
+    "description": "提示用户先保存快照的友好消息"
+  },
+  "emptySnapshotPrompt": {
+    "message": "当前快照为空。请先保存一些标签页到快照中，然后再进行恢复。",
+    "description": "提示用户快照为空的友好消息"
+  },
+  "unknownError": {
+    "message": "未知错误",
+    "description": "未知错误消息"
+  },
+  "openSnapshotFailed": {
+    "message": "打开快照失败",
+    "description": "打开快照失败消息"
+  },
+  "loadStatsFailed": {
+    "message": "加载信息失败",
+    "description": "加载统计信息失败消息"
+  },
+  "cannotAccessHistory": {
+    "message": "无法访问浏览器历史记录，请确保已授予历史记录权限",
+    "description": "无法访问历史记录权限错误"
+  },
+  "saveHistorySnapshotFailed": {
+    "message": "存储历史快照失败，请检查存储权限",
+    "description": "保存历史快照失败错误"
+  },
+  "cannotGetGroupData": {
+    "message": "无法获取分组数据，请重试",
+    "description": "获取分组数据失败消息"
+  },
+  "processing": {
+    "message": "处理中...",
+    "description": "通用处理中消息"
+  },
+  "saving": {
+    "message": "保存中...",
+    "description": "保存过程中显示的消息"
+  },
+  "restoring": {
+    "message": "恢复中...",
+    "description": "恢复过程中显示的消息"
+  },
+  "loading": {
+    "message": "加载中...",
+    "description": "加载过程中显示的消息"
+  },
+  "loadingFailed": {
+    "message": "加载失败",
+    "description": "加载失败消息"
+  },
+  "storageError": {
+    "message": "存储访问错误",
+    "description": "存储错误消息"
+  },
+  
+  "restoreGroupButton": {
+    "message": "恢复这个分组",
+    "description": "恢复分组按钮提示"
+  },
+  "pinned": {
+    "message": "固定",
+    "description": "固定标签页指示器"
+  },
+  "deleteTab": {
+    "message": "删除标签页",
+    "description": "删除标签页按钮提示"
+  },
+  "confirmDeleteTab": {
+    "message": "确定要删除标签页\\\"$TITLE$\\\"吗？",
+    "description": "确认删除标签页对话框",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "谷歌"
+      }
+    }
+  },
+  
+  "timeAgo": {
+    "message": "$COUNT$$UNIT$前",
+    "description": "时间前格式",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      },
+      "unit": {
+        "content": "$2",
+        "example": "分钟"
+      }
+    }
+  },
+  "justNow": {
+    "message": "刚刚",
+    "description": "刚刚时间"
+  },
+  "days": {
+    "message": "天",
+    "description": "天单位"
+  },
+  "hours": {
+    "message": "小时",
+    "description": "小时单位"
+  },
+  "minutes": {
+    "message": "分钟",
+    "description": "分钟单位"
+  },
+  
+  "restoreCompleted": {
+    "message": "成功恢复分组\\\"$TITLE$\\\"中的 $RESTORED$ 个标签页，跳过了 $SKIPPED$ 个已打开的标签页",
+    "description": "分组恢复完成消息",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "工作分组"
+      },
+      "restored": {
+        "content": "$2",
+        "example": "3"
+      },
+      "skipped": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "allGroupTabsOpen": {
+    "message": "分组\\\"$TITLE$\\\"中的所有 $COUNT$ 个标签页都已经打开，无需恢复",
+    "description": "所有分组标签页已打开消息",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "工作分组"
+      },
+      "count": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "noValidGroupTabs": {
+    "message": "分组\\\"$TITLE$\\\"中没有找到有效的标签页",
+    "description": "无有效分组标签页消息",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "工作分组"
+      }
+    }
+  },
+  
+  "setHomepage": {
+    "message": "设为主页",
+    "description": "设置为浏览器默认主页按钮"
+  },
+  "homepageSet": {
+    "message": "主页设置指导已显示",
+    "description": "主页设置指导消息"
+  },
+  "homepageSetFailed": {
+    "message": "无法显示主页设置指导",
+    "description": "主页设置失败消息"
+  },
+  "generateHistorySnapshot": {
+    "message": "生成历史快照",
+    "description": "生成历史快照按钮"
+  },
+  "historySnapshotTitle": {
+    "message": "最常访问的网站",
+    "description": "历史快照页面标题"
+  },
+  "historyAnalyzing": {
+    "message": "正在分析浏览历史...",
+    "description": "分析历史记录提示"
+  },
+  "historyAnalyzeComplete": {
+    "message": "历史分析完成，已生成快照页面",
+    "description": "历史分析完成提示"
+  },
+  "historyAnalyzeFailed": {
+    "message": "历史分析失败",
+    "description": "历史分析失败提示"
+  },
+  
+  "saveSnapshotShortcut": {
+    "message": "保存当前会话快照",
+    "description": "保存快照键盘快捷键描述"
+  },
+  "restoreSnapshotShortcut": {
+    "message": "恢复最后保存的快照",
+    "description": "恢复快照键盘快捷键描述"
+  },
+  "saveAndCloseShortcut": {
+    "message": "保存快照并关闭所有标签页",
+    "description": "保存并关闭所有标签页键盘快捷键描述"
+  },
+  "viewSnapshotShortcut": {
+    "message": "在浏览器中查看当前快照",
+    "description": "查看快照键盘快捷键描述"
+  },
+  
+  "cloudSyncSuccess": {
+    "message": "数据已成功同步到云端",
+    "description": "云同步成功通知"
+  },
+  "cloudSyncFailed": {
+    "message": "云同步失败，仅保存到本地",
+    "description": "云同步失败通知"
+  },
+  "cloudSyncDisabled": {
+    "message": "云同步已禁用，请登录Chrome账户以启用同步",
+    "description": "云同步禁用消息"
+  },
+  "cloudRestoreSuccess": {
+    "message": "已从云端恢复数据",
+    "description": "云端恢复成功通知"
+  },
+  "cloudRestoreFailed": {
+    "message": "从云端恢复失败",
+    "description": "云端恢复失败通知"
+  },
+  "noCloudBackup": {
+    "message": "未找到云端备份",
+    "description": "无云端备份消息"
+  }
+}

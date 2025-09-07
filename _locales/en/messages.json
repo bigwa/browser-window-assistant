@@ -1,0 +1,416 @@
+{
+  "extensionName": {
+    "message": "Browser Window Assistant",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Intelligently manage browser windows and tabs, auto-save session state, support one-click restore and group management",
+    "description": "Extension description"
+  },
+  
+  "popupTitle": {
+    "message": "Window Assistant",
+    "description": "Popup window title"
+  },
+  "popupSubtitle": {
+    "message": "Manage your browser windows and tabs",
+    "description": "Popup window subtitle"
+  },
+  "currentTabs": {
+    "message": "Current tabs",
+    "description": "Current tabs label"
+  },
+  "currentWindows": {
+    "message": "Current windows",
+    "description": "Current windows label"
+  },
+  "lastSaved": {
+    "message": "Last saved",
+    "description": "Last saved label"
+  },
+  "neverSaved": {
+    "message": "Never saved",
+    "description": "Never saved status"
+  },
+  
+  "saveNow": {
+    "message": "Save Snapshot Now",
+    "description": "Save now button"
+  },
+  "saveAndClose": {
+    "message": "Save & Close All Tabs",
+    "description": "Save and close all tabs button"
+  },
+  "restoreSnapshot": {
+    "message": "Restore Snapshot",
+    "description": "Restore snapshot button"
+  },
+  "viewSnapshot": {
+    "message": "View Snapshot",
+    "description": "View snapshot button"
+  },
+  
+  "savingSession": {
+    "message": "Saving session...",
+    "description": "Saving session status"
+  },
+  "sessionSaved": {
+    "message": "Session saved successfully!",
+    "description": "Session saved success message"
+  },
+  "saveSuccess": {
+    "message": "Save successful, closing window...",
+    "description": "Save success message"
+  },
+  "saveFailed": {
+    "message": "Save failed",
+    "description": "Save failed message"
+  },
+  
+  "restoringSnapshot": {
+    "message": "Restoring snapshot...",
+    "description": "Restoring snapshot status"
+  },
+  "restoreSuccess": {
+    "message": "Successfully restored $COUNT$ tabs!",
+    "description": "Restore success message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "restoreFailed": {
+    "message": "Restore failed",
+    "description": "Restore failed message"
+  },
+  "allTabsAlreadyOpen": {
+    "message": "All tabs are already open, no need to restore",
+    "description": "All tabs already open message"
+  },
+  "noValidTabs": {
+    "message": "No valid tabs found in snapshot",
+    "description": "No valid tabs message"
+  },
+  
+  "confirmSaveAndClose": {
+    "message": "Are you sure you want to save the session and close all tabs?\\n\\nNote: This will close all tabs in the current window and keep only the snapshot page. The browser window will remain open.",
+    "description": "Confirm save and close all tabs dialog"
+  },
+  "confirmRestoreGroup": {
+    "message": "Are you sure you want to restore group \\\"$TITLE$\\\"?\\n\\nContains $COUNT$, system will automatically skip already open pages.",
+    "description": "Confirm restore group dialog",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Work Group"
+      },
+      "count": {
+        "content": "$2",
+        "example": "5 tabs"
+      }
+    }
+  },
+  
+  "snapshotPageTitle": {
+    "message": "Browser Window Assistant - $DATE$",
+    "description": "Snapshot page title",
+    "placeholders": {
+      "date": {
+        "content": "$1",
+        "example": "2025-08-23 14:30"
+      }
+    }
+  },
+  "fixLayout": {
+    "message": "Fix Layout",
+    "description": "Fix layout button"
+  },
+  "restoreFullSnapshot": {
+    "message": "Restore Snapshot",
+    "description": "Restore full snapshot button"
+  },
+  "saveTime": {
+    "message": "Save time: $TIME$",
+    "description": "Save time label",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "2025-08-23 14:30"
+      }
+    }
+  },
+  "tabCount": {
+    "message": "$COUNT$ tabs",
+    "description": "Tab count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "groupCount": {
+    "message": "$COUNT$ groups",
+    "description": "Group count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "ungroupedTabs": {
+    "message": "Ungrouped Tabs",
+    "description": "Ungrouped tabs label"
+  },
+  "unnamedGroup": {
+    "message": "Unnamed Group",
+    "description": "Unnamed group label"
+  },
+  "restoredGroup": {
+    "message": "Restored Group",
+    "description": "Restored group label"
+  },
+  "noDescription": {
+    "message": "No description",
+    "description": "No description available"
+  },
+  "noTabs": {
+    "message": "No saved tabs found",
+    "description": "No tabs message"
+  },
+  "noSnapshotData": {
+    "message": "No saved session snapshot available",
+    "description": "No snapshot data message"
+  },
+  "noSnapshotPrompt": {
+    "message": "No snapshot saved yet. Please click \"Save Snapshot Now\" button to create a snapshot first, then you can restore it.",
+    "description": "Friendly prompt for user to save snapshot first"
+  },
+  "emptySnapshotPrompt": {
+    "message": "Current snapshot is empty. Please save some tabs to the snapshot first, then you can restore them.",
+    "description": "Friendly prompt for empty snapshot"
+  },
+  "unknownError": {
+    "message": "Unknown error",
+    "description": "Unknown error message"
+  },
+  "openSnapshotFailed": {
+    "message": "Failed to open snapshot",
+    "description": "Open snapshot failed message"
+  },
+  "loadStatsFailed": {
+    "message": "Failed to load information",
+    "description": "Load statistics failed message"
+  },
+  "cannotAccessHistory": {
+    "message": "Cannot access browser history, please ensure history permission is granted",
+    "description": "Cannot access history permission error"
+  },
+  "saveHistorySnapshotFailed": {
+    "message": "Failed to save history snapshot, please check storage permission",
+    "description": "Save history snapshot failed error"
+  },
+  "cannotGetGroupData": {
+    "message": "Cannot get group data, please try again",
+    "description": "Get group data failed message"
+  },
+  "processing": {
+    "message": "Processing...",
+    "description": "Generic processing message"
+  },
+  "saving": {
+    "message": "Saving...",
+    "description": "Message shown during save process"
+  },
+  "restoring": {
+    "message": "Restoring...",
+    "description": "Message shown during restore process"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Message shown during loading process"
+  },
+  "loadingFailed": {
+    "message": "Loading failed",
+    "description": "Loading failed message"
+  },
+  "storageError": {
+    "message": "Storage access error",
+    "description": "Storage error message"
+  },
+  
+  "restoreGroupButton": {
+    "message": "Restore this group",
+    "description": "Restore group button tooltip"
+  },
+  "pinned": {
+    "message": "Pinned",
+    "description": "Pinned tab indicator"
+  },
+  "deleteTab": {
+    "message": "Delete tab",
+    "description": "Delete tab button tooltip"
+  },
+  "confirmDeleteTab": {
+    "message": "Are you sure you want to delete tab \\\"$TITLE$\\\"?",
+    "description": "Confirm delete tab dialog",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Google"
+      }
+    }
+  },
+  
+  "timeAgo": {
+    "message": "$COUNT$ $UNIT$ ago",
+    "description": "Time ago format",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      },
+      "unit": {
+        "content": "$2",
+        "example": "minutes"
+      }
+    }
+  },
+  "justNow": {
+    "message": "just now",
+    "description": "Just now time"
+  },
+  "days": {
+    "message": "days",
+    "description": "Days unit"
+  },
+  "hours": {
+    "message": "hours", 
+    "description": "Hours unit"
+  },
+  "minutes": {
+    "message": "minutes",
+    "description": "Minutes unit"
+  },
+  
+  "restoreCompleted": {
+    "message": "Successfully restored group \\\"$TITLE$\\\" with $RESTORED$ tabs, skipped $SKIPPED$ already open tabs",
+    "description": "Group restore completed message",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Work Group"
+      },
+      "restored": {
+        "content": "$2",
+        "example": "3"
+      },
+      "skipped": {
+        "content": "$3",
+        "example": "2"
+      }
+    }
+  },
+  "allGroupTabsOpen": {
+    "message": "All $COUNT$ tabs in group \\\"$TITLE$\\\" are already open, no need to restore",
+    "description": "All group tabs already open message",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Work Group"
+      },
+      "count": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "noValidGroupTabs": {
+    "message": "No valid tabs found in group \\\"$TITLE$\\\"",
+    "description": "No valid group tabs message",
+    "placeholders": {
+      "title": {
+        "content": "$1",
+        "example": "Work Group"
+      }
+    }
+  },
+  
+  "setHomepage": {
+    "message": "Set as Homepage",
+    "description": "Set as browser default homepage button"
+  },
+  "homepageSet": {
+    "message": "Homepage setup instructions shown",
+    "description": "Homepage setup instructions message"
+  },
+  "homepageSetFailed": {
+    "message": "Unable to show homepage setup instructions",
+    "description": "Homepage setup failed message"
+  },
+  "generateHistorySnapshot": {
+    "message": "Generate History Snapshot",
+    "description": "Generate history snapshot button"
+  },
+  "historySnapshotTitle": {
+    "message": "Most Visited Websites",
+    "description": "History snapshot page title"
+  },
+  "historyAnalyzing": {
+    "message": "Analyzing browser history...",
+    "description": "Analyzing history prompt"
+  },
+  "historyAnalyzeComplete": {
+    "message": "History analysis complete, snapshot page generated",
+    "description": "History analysis complete prompt"
+  },
+  "historyAnalyzeFailed": {
+    "message": "History analysis failed",
+    "description": "History analysis failed prompt"
+  },
+  
+  "saveSnapshotShortcut": {
+    "message": "Save current session snapshot",
+    "description": "Save snapshot keyboard shortcut description"
+  },
+  "restoreSnapshotShortcut": {
+    "message": "Restore last saved snapshot",
+    "description": "Restore snapshot keyboard shortcut description"
+  },
+  "saveAndCloseShortcut": {
+    "message": "Save snapshot and close all tabs",
+    "description": "Save and close all tabs keyboard shortcut description"
+  },
+  "viewSnapshotShortcut": {
+    "message": "View current snapshot in browser",
+    "description": "View snapshot keyboard shortcut description"
+  },
+  
+  "cloudSyncSuccess": {
+    "message": "Data synced to cloud successfully",
+    "description": "Cloud sync success notification"
+  },
+  "cloudSyncFailed": {
+    "message": "Cloud sync failed, saved locally only",
+    "description": "Cloud sync failure notification"
+  },
+  "cloudSyncDisabled": {
+    "message": "Cloud sync disabled. Please sign in to Chrome to enable sync.",
+    "description": "Cloud sync disabled message"
+  },
+  "cloudRestoreSuccess": {
+    "message": "Data restored from cloud",
+    "description": "Cloud restore success notification"
+  },
+  "cloudRestoreFailed": {
+    "message": "Failed to restore from cloud",
+    "description": "Cloud restore failure notification"
+  },
+  "noCloudBackup": {
+    "message": "No cloud backup found",
+    "description": "No cloud backup available message"
+  }
+}
