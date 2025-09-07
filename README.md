@@ -186,7 +186,7 @@ Read our complete [Privacy Policy](privacy-policy.html) for details.
 
 ### 📸 功能截图
 
-*此处将显示主界面、快照视图和恢复模式的功能截图*
+![Snapshot](mainpage.png)
 
 ### 🔧 配置选项
 
