@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Window Assistant - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #374151;
+            margin-top: 30px;
+        }
+        .last-updated {
+            background: #f8fafc;
+            padding: 10px;
+            border-left: 4px solid #2563eb;
+            margin-bottom: 30px;
+        }
+        .contact {
+            background: #f0f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .lang-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .lang-toggle a {
+            color: #2563eb;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 8px 16px;
+            border: 1px solid #e5e7eb;
+            border-radius: 4px;
+        }
+        .lang-toggle a.active {
+            background: #2563eb;
+            color: white;
+        }
+        #chinese { display: block; }
+        #english { display: none; }
+    </style>
+    <script>
+        function toggleLanguage(lang) {
+            const chinese = document.getElementById('chinese');
+            const english = document.getElementById('english');
+            const cnLink = document.getElementById('cn-link');
+            const enLink = document.getElementById('en-link');
+            
+            if (lang === 'en') {
+                chinese.style.display = 'none';
+                english.style.display = 'block';
+                cnLink.classList.remove('active');
+                enLink.classList.add('active');
+            } else {
+                chinese.style.display = 'block';
+                english.style.display = 'none';
+                cnLink.classList.add('active');
+                enLink.classList.remove('active');
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="lang-toggle">
+        <a href="#" id="cn-link" class="active" onclick="toggleLanguage('cn')">中文</a>
+        <a href="#" id="en-link" onclick="toggleLanguage('en')">English</a>
+    </div>
+
+    <div id="chinese">
+        <h1>Browser Window Assistant - 隐私政策</h1>
+        
+        <div class="last-updated">
+            <strong>最后更新：</strong> 2025年9月6日
+        </div>
+
+        <h2>1. 概述</h2>
+        <p>Browser Window Assistant（"浏览器窗口助手"）致力于保护用户隐私。本隐私政策说明我们如何处理您的信息。</p>
+
+        <h2>2. 信息收集</h2>
+        <p>我们的Chrome扩展承诺：</p>
+        <ul>
+            <li><strong>不收集个人信息</strong> - 我们不收集、存储或传输任何个人身份信息</li>
+            <li><strong>本地存储优先</strong> - 所有数据仅存储在您的本地设备上</li>
+            <li><strong>无服务器传输</strong> - 不向任何外部服务器发送您的浏览数据</li>
+            <li><strong>无跟踪技术</strong> - 不使用任何跟踪、分析或广告技术</li>
+        </ul>
+
+        <h2>3. 数据处理</h2>
+        <p>扩展仅在本地处理以下信息：</p>
+        <ul>
+            <li>标签页的URL和标题</li>
+            <li>标签页分组信息</li>
+            <li>网页的公开描述信息（meta标签）</li>
+            <li>保存时间戳</li>
+        </ul>
+        <p><strong>重要：</strong>所有这些信息仅用于实现扩展的核心功能（保存和恢复浏览会话），永远不会离开您的设备。</p>
+
+        <h2>4. 权限说明</h2>
+        <p>扩展请求的权限及其用途：</p>
+        <ul>
+            <li><strong>tabs</strong> - 获取当前标签页信息用于会话保存</li>
+            <li><strong>storage</strong> - 在本地存储会话数据</li>
+            <li><strong>tabGroups</strong> - 支持标签页分组功能</li>
+            <li><strong>scripting</strong> - 提取网页公开信息以改善用户体验</li>
+            <li><strong>history</strong> - 可选的历史快照生成功能</li>
+            <li><strong>notifications</strong> - 显示操作结果通知</li>
+        </ul>
+
+        <h2>5. 数据安全</h2>
+        <ul>
+            <li>所有数据使用Chrome的安全存储API加密保存</li>
+            <li>不与第三方共享任何信息</li>
+            <li>您可以随时通过Chrome设置清除所有存储的数据</li>
+            <li>卸载扩展会自动删除所有相关数据</li>
+        </ul>
+
+        <h2>6. 用户控制</h2>
+        <p>您拥有完全的数据控制权：</p>
+        <ul>
+            <li>随时查看、修改或删除保存的会话数据</li>
+            <li>选择使用或不使用特定功能</li>
+            <li>随时卸载扩展并删除所有数据</li>
+        </ul>
+
+        <h2>7. 更新通知</h2>
+        <p>如果此隐私政策发生重大更改，我们会通过扩展更新或GitHub仓库通知用户。</p>
+
+        <div class="contact">
+            <h2>8. 联系我们</h2>
+            <p>如有隐私相关问题，请通过以下方式联系：</p>
+            <ul>
+                <li>GitHub Issues: <a href="https://github.com/your-username/browser-window-assistant/issues">项目地址</a></li>
+                <li>邮箱: [您的邮箱地址]</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="english">
+        <h1>Browser Window Assistant - Privacy Policy</h1>
+        
+        <div class="last-updated">
+            <strong>Last Updated:</strong> September 6, 2025
+        </div>
+
+        <h2>1. Overview</h2>
+        <p>Browser Window Assistant is committed to protecting user privacy. This privacy policy explains how we handle your information.</p>
+
+        <h2>2. Information Collection</h2>
+        <p>Our Chrome extension promises:</p>
+        <ul>
+            <li><strong>No Personal Data Collection</strong> - We do not collect, store, or transmit any personally identifiable information</li>
+            <li><strong>Local Storage Only</strong> - All data is stored only on your local device</li>
+            <li><strong>No Server Transmission</strong> - We do not send your browsing data to any external servers</li>
+            <li><strong>No Tracking</strong> - We do not use any tracking, analytics, or advertising technologies</li>
+        </ul>
+
+        <h2>3. Data Processing</h2>
+        <p>The extension only processes the following information locally:</p>
+        <ul>
+            <li>Tab URLs and titles</li>
+            <li>Tab group information</li>
+            <li>Public page descriptions (meta tags)</li>
+            <li>Save timestamps</li>
+        </ul>
+        <p><strong>Important:</strong> All this information is used solely to implement the extension's core functionality (saving and restoring browsing sessions) and never leaves your device.</p>
+
+        <h2>4. Permission Explanations</h2>
+        <p>The extension's requested permissions and their purposes:</p>
+        <ul>
+            <li><strong>tabs</strong> - Access current tab information for session saving</li>
+            <li><strong>storage</strong> - Store session data locally</li>
+            <li><strong>tabGroups</strong> - Support tab grouping functionality</li>
+            <li><strong>scripting</strong> - Extract public page information to enhance user experience</li>
+            <li><strong>history</strong> - Optional historical snapshot generation feature</li>
+            <li><strong>notifications</strong> - Display operation result notifications</li>
+        </ul>
+
+        <h2>5. Data Security</h2>
+        <ul>
+            <li>All data is encrypted and saved using Chrome's secure storage APIs</li>
+            <li>No information is shared with third parties</li>
+            <li>You can clear all stored data at any time through Chrome settings</li>
+            <li>Uninstalling the extension automatically deletes all related data</li>
+        </ul>
+
+        <h2>6. User Control</h2>
+        <p>You have complete control over your data:</p>
+        <ul>
+            <li>View, modify, or delete saved session data at any time</li>
+            <li>Choose to use or not use specific features</li>
+            <li>Uninstall the extension and delete all data at any time</li>
+        </ul>
+
+        <h2>7. Update Notifications</h2>
+        <p>If there are significant changes to this privacy policy, we will notify users through extension updates or the GitHub repository.</p>
+
+        <div class="contact">
+            <h2>8. Contact Us</h2>
+            <p>For privacy-related questions, please contact us through:</p>
+            <ul>
+                <li>GitHub Issues: <a href="https://github.com/your-username/browser-window-assistant/issues">Project Repository</a></li>
+                <li>Email: [Your Email Address]</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
